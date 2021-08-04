@@ -35,6 +35,16 @@ h1 {
   border-radius: 5px;
 }
 
+.btn-disabled {
+  display: inline-block;
+  background: grey;
+  color: #fff;
+  padding: 10px 20px;
+  /* cursor: pointer; */
+  border: 0;
+  border-radius: 5px;
+}
+
 .btn:hover {
   opacity: 0.9;
 }
