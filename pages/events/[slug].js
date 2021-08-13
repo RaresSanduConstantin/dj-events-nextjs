@@ -23,11 +23,10 @@ export default function EventPage({ evt }) {
       }
     }
   };
-console.log('evt', evt)
   return (
     <Layout>
       <div className={styles.event}>
-        <div className={styles.controls}>
+        {/* <div className={styles.controls}>
           <Link href={`/events/edit/${evt.id}`}>
             <a>
               <FaPencilAlt /> Edit Event
@@ -37,7 +36,7 @@ console.log('evt', evt)
           <a href='#' className={styles.delete} onClick={deleteEvent}>
             <FaTimes /> DeleteEvent
           </a>
-        </div>
+        </div> */}
         <span>
           {new Date(evt.date).toLocaleDateString('en-GB')} at {evt.time}
         </span>
